@@ -3,7 +3,15 @@ import {
   GoogleSigninButton,
 } from '@react-native-google-signin/google-signin';
 import React from 'react';
-import {StyleSheet, View} from 'react-native';
+import { StyleSheet, View } from 'react-native';
+
+export const signOut = async () => {
+  try {
+    await GoogleSignin.signOut();
+  } catch (error) {
+    console.error('Error signing out: ', error);
+  }
+};
 
 GoogleSignin.configure({
   webClientId:
@@ -18,14 +26,6 @@ const Signin = () => {
       console.log(JSON.stringify(userInfo.user, null, 2));
     } catch (error) {
       console.log('Error signing in with Google: ', error);
-    }
-  };
-
-  const signOut = async () => {
-    try {
-      await GoogleSignin.signOut();
-    } catch (error) {
-      console.error('Error signing out: ', error);
     }
   };
 
