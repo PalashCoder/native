@@ -1,4 +1,9 @@
 {
-  "name": "AwesomeProject",
-  "displayName": "AwesomeProject"
+  "name": "PasswordAuthenticator",
+  "displayName": "PasswordAuthenticator",
+  "android": {
+    "defaultConfig" : {
+    "package" : "tech.palashdas.native"
+    }
+  }
 }

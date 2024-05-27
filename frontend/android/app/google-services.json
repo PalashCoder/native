@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "434717610234",
+    "project_id": "passauthenticator-80a70",
+    "storage_bucket": "passauthenticator-80a70.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:434717610234:android:c86477d63deeafcc66f943",
+        "android_client_info": {
+          "package_name": "com.passwordauthenticator"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASt2u6r5jyeK7LDkragqc8iuzOJM8eAqg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
